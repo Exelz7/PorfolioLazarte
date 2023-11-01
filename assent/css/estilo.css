@@ -1,14 +1,18 @@
 body{background-color: rgb(35, 227, 241);
-    background-image: linear-gradient(to left ,red , yellow);}
+    }
 
 }
 h1{font-size: 20 px;}
-h1{background-color: rgb(18, 52, 241);}
+h1{background-color: rgb(18, 52, 241);
+}
 img {height: 250px;
 width: 500px;
-background-image: linear-gradient(to left ,red , yellow);}
-div {
-    transform: skew(20deg,10deg);
+background-image: linear-gradient(to left ,red , yellow); 
+
+h1  { animation-duration: 0s;
+animation-name: aparecer;
+-moz-animation-iteration-count: infinite;
+}
 
 }
 
